@@ -14,18 +14,19 @@
 //askForName();
 
 console.log("Hello, what is your name?");
+//Notes: Logs the fuction directly into the console since there is only one function.
 
 // EX 2:
 function addThreeNums(first, second, third) {
   var sum = first + second + third
-  return sum;
+  //return sum;
 }
 
 console.log(addThreeNums(1, 2, 3));
 console.log(addThreeNums(4, 2, 7));
 //addThreeNums(1, 2, 3);
 //addThreeNums(4, 2, 7);
-
+//Notes: Logging the result of the function directly to the console by adding console.log in front of each function
 
 // EX 3:
 
@@ -45,7 +46,7 @@ console.log(
 //   console.log("Season");    }
 
 // makeFreshPesto();
-
+//Notes: Initally I removed the declaration and executed the statements directly. After doing some research I found out about \n, which can be used to combine the messages into a single statement. 
 
 //  EX 4:
 // function average(num1, num2) 
@@ -59,3 +60,5 @@ console.log(
 function average(num1, num2) {
   return (num1 + num2) / 2;
 }
+
+//Notes: The sum variable was removed and both functions are performed in a single statement.
