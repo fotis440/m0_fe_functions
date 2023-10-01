@@ -63,3 +63,21 @@ console.log(num1.padStart(2, '0'));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+// 1. Declare first array variable
+let numbers = [10, 20, 30, 40, 50];
+
+// 2. Call a built-in method - slice() method
+let slicedArray = numbers.slice(1, 4);
+console.log(slicedArray);
+//Expected output: 20, 30, 40
+//Used the slice method on an array of 5 values
+//Defined the slice start and end number within the array 
+
+// 1. Declare second array variable
+let colors = ['red', 'green', 'blue', 'yellow'];
+
+// 2. Call a built-in method - reverse() method
+console.log(colors.reverse());
+// Expected output: yellow', 'blue', 'green', 'red'
+// Used the reverse() method on the array defined as colors.
